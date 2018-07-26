@@ -9,7 +9,7 @@ import (
 const ClientName = "Golang SQLDriver"
 
 const (
-	ClickHouseRevision         = 54213
+	ClickHouseRevision         = 54226
 	ClickHouseDBMSVersionMajor = 1
 	ClickHouseDBMSVersionMinor = 1
 )

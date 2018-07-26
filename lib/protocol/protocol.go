@@ -6,11 +6,12 @@ const (
 )
 
 const (
-	ClientHello  = 0
-	ClientQuery  = 1
-	ClientData   = 2
-	ClientCancel = 3
-	ClientPing   = 4
+	ClientHello               = 0
+	ClientQuery               = 1
+	ClientData                = 2
+	ClientCancel              = 3
+	ClientPing                = 4
+	ClientTablesStatusRequest = 5
 )
 
 const (
@@ -23,13 +24,14 @@ const (
 )
 
 const (
-	ServerHello       = 0
-	ServerData        = 1
-	ServerException   = 2
-	ServerProgress    = 3
-	ServerPong        = 4
-	ServerEndOfStream = 5
-	ServerProfileInfo = 6
-	ServerTotals      = 7
-	ServerExtremes    = 8
+	ServerHello                = 0
+	ServerData                 = 1
+	ServerException            = 2
+	ServerProgress             = 3
+	ServerPong                 = 4
+	ServerEndOfStream          = 5
+	ServerProfileInfo          = 6
+	ServerTotals               = 7
+	ServerExtremes             = 8
+	ServerTablesStatusResponse = 9
 )
